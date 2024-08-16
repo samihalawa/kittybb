@@ -1,0 +1,22 @@
+
+{
+  "name": "KittyBB",
+  "short_name": "KittyBB",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ff80ab",
+  "theme_color": "#ff80ab",
+  "description": "KittyBB 着陆页，Sami 的九点计划，让 Kitty 幸福快乐。",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

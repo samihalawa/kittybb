@@ -1,0 +1,147 @@
+
+/* 基本重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 身体样式 */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fefefe;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* 头部样式 */
+header {
+  text-align: center;
+  padding: 10px 0;
+  background: #ff80ab;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* 引言部分 */
+.intro {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  color: #ff4081;
+}
+
+.intro button {
+  padding: 10px 20px;
+  background: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.intro button:hover {
+  background: #e91e63;
+}
+
+/* 滑动部分 */
+.slides {
+  display: none;
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.slide img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.slide h3 {
+  font-size: 1.8rem;
+  margin-top: 15px;
+  color: #ff4081;
+}
+
+.slide p {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* 承诺部分 */
+.commitment {
+  text-align: center;
+  margin: 40px 0;
+  background: #ff80ab;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.commitment h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+.commitment p {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.commitment .btn {
+  padding: 10px 20px;
+  margin: 10px;
+  background: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.commitment .btn:hover {
+  background: #e91e63;
+}
+
+/* 页脚 */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #ff80ab;
+  color: white;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .intro h2 {
+    font-size: 1.5rem;
+  }
+
+  .slide h3 {
+    font-size: 1.5rem;
+  }
+}
