@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KittyBB 承诺书</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        h1 {
+            text-align: center;
+            color: #ff4081;
+            margin-bottom: 30px;
+            font-size: 32px;
+            text-decoration: underline;
+        }
+        p {
+            font-size: 20px;
+            margin: 15px 0;
+            text-align: justify;
+        }
+        .image-container {
+            text-align: center;
+            margin: 25px 0;
+        }
+        .image-container img {
+            width: 94%;
+            max-width: 800px;
+            border-radius: 10px;
+            margin: 20px 0;
+            transition: transform 0.3s ease-in-out;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+        .affirmation {
+            font-weight: bold;
+            color: #ff4081;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 2.7em;
+        }
+        .signature {
+            text-align: right;
+            font-size: 26px;
+            font-style: italic;
+            margin-top: 60px;
+            color: #ff4081;
+        }
+        .signature p {
+            margin: 0;
+        }
+        .signature .pig-signature {
+            width: 150px;
+            height: 150px;
+            margin-top: 10px;
+            margin-right: 20px;
+            background: url('https://raw.githubusercontent.com/samihalawa/kittybb/main/vignette_8.png') no-repeat center;
+            background-size: contain;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #777;
+            font-size: 16px;
+        }
+        .github-url {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .github-url a {
+            color: #ff4081;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .github-url a:hover {
+            text-decoration: underline;
+        }
+        /* Animations */
+        .animate__animated {
+            visibility: hidden;
+        }
+        .animate__animated.animate__fadeInUp {
+            visibility: visible;
+            animation-duration: 1s;
+        }
+        .animate__animated.animate__fadeInLeft {
+            visibility: visible;
+            animation-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <h1>KittyBB 承诺书</h1>
+    <p class="animate__animated animate__fadeInUp">我，Sami，特此承诺，让我的 Kitty 更加快乐，并为此付出实际行动。</p>
+    <p class="animate__animated animate__fadeInUp">以下是我确认的承诺，每一项都附有对应的图片为证：</p>
+
+    <div class="image-container">
+        <div class="animate__animated animate__fadeInLeft">
+            <img src="https://raw.githubusercontent.com/samihalawa/kittybb/main/vignette_2.png" alt="承诺照片 2">
+            <p class="affirmation">承诺 1：用心倾听 Kitty。</p>
+        </div>
+
+        <div class="animate__animated animate__fadeInLeft">
+            <img src="https://raw.githubusercontent.com/samihalawa/kittybb/main/vignette_3.png" alt="承诺照片 3">
+            <p class="affirmation">承诺 2：尊重 Kitty 的感受。</p>
+        </div>
+
+        <div class="animate__animated animate__fadeInLeft">
+            <img src="https://raw.githubusercontent.com/samihalawa/kittybb/main/vignette_4.png" alt="承诺照片 4">
+            <p class="affirmation">承诺 3：陪伴 Kitty 的时光。</p>
+        </div>
+
+        <div class="animate__animated animate__fadeInLeft">
+            <img src="https://raw.githubusercontent.com/samihalawa/kittybb/main/vignette_6.png" alt="承诺照片 5">
+            <p class="affirmation">承诺 4：关心 Kitty 的幸福。</p>
+        </div>
+
+        <div class="animate__animated animate__fadeInLeft">
+            <img src="https://raw.githubusercontent.com/samihalawa/kittybb/main/vignette_7.png" alt="承诺照片 6">
+            <p class="affirmation">承诺 5：为 Kitty 努力。</p>
+        </div>
+
+        <div class="animate__animated animate__fadeInLeft">
+            <img src="https://raw.githubusercontent.com/samihalawa/kittybb/main/vignette_8.png" alt="承诺照片 7">
+            <p class="affirmation">承诺 6：爱护 Kitty。</p>
+        </div>
+    </div>
+    
+    <div class="signature animate__animated animate__fadeInUp">
+        <p>Sami (小猪老公)</p>
+        <div class="pig-signature"></div>
+    </div>
+    
+    <div class="github-url">
+        <p>项目源代码:</p>
+        <a href="https://github.com/sanihalawa">a永远爱着我的 Kitty</a>
+    </div>
+
+    <div class="footer">
+        <p>KittyBB © 2024 保留所有权利</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
