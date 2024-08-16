@@ -1,14 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="description" content="KittyBB 着陆页 - Sami 的九点计划，让 Kitty 快乐。">
   <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.json">
-  <link rel="icon" href="icons/favicon.png">
+  <link rel="icon" href="icons/favicon.png" type="image/png" sizes="16x16">
   <title>KittyBB - Sami 的 2024 承诺</title>
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>
 <body>
   <header>
@@ -20,17 +22,17 @@
     <section class="intro">
       <h2>2024 年让 Kitty BB 快乐的九点计划</h2>
       <p>这是一个我已经接受并将遵守的九点计划， 让你快乐，Kitty BB。你会看到的！</p>
-      <button id="startBtn">开始</button>
+      <button id="startBtn" aria-label="开始">开始</button>
     </section>
     
-    <section class="slides" id="slides">
+    <section class="slides" id="slides" aria-label="计划列表">
       <div class="slide">
-        <img src="vignette_1.png" alt="计划1">
+        <img src="vignette_1.png" alt="计划1" loading="lazy">
         <h3>计划1</h3>
         <p>我会努力做到这一点！</p>
       </div>
       <div class="slide">
-        <img src="vignette_2.png" alt="计划2">
+        <img src="vignette_2.png" alt="计划2" loading="lazy">
         <h3>计划2</h3>
         <p>温暖和关怀</p>
       </div>
@@ -41,15 +43,15 @@
       <h2>是的！我会做到</h2>
       <p>从现在起，你可以每天访问这个网站，查看我的进展，看我是否有在 Kitty BB 上做得更好。</p>
       <p>每周你还有机会进行 <strong>KittyBB 每周测试</strong> 来查看我的进步。</p>
-      <a href="contract.pdf" class="btn">下载合同 PDF</a>
-      <a href="#" class="btn" id="installApp">安装 APP</a>
+      <a href="contract.pdf" class="btn" target="_blank" rel="noopener noreferrer">下载合同 PDF</a>
+      <a href="#" class="btn" id="installApp" aria-label="安装 APP">安装 APP</a>
     </section>
   </main>
   
   <footer>
-    <p>KittyBB © 2024 保留所有权利</p>
+    <p>KittyBB &copy; 2024 保留所有权利</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
