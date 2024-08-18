@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitty Test 疼爱测验</title>
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: #ffeef7;
+            color: #333;
+            margin: 0;
+            padding: 10px;
+            line-height: 1.8;
+        }
+        h1 {
+            text-align: center;
+            color: #ff4081;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        .section {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #ff4081;
+        }
+        .test-item {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        .test-item label {
+            margin-right: 10px;
+        }
+        .negative {
+            color: #ff0000;
+        }
+        .icon {
+            width: 24px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        .remarks {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #555;
+        }
+        .statistics {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+        .submit-button {
+            width: 100%;
+            padding: 10px;
+            font-size: 20px;
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .submit-button:hover {
+            background-color: #e91e63;
+        }
+        .signature {
+            text-align: right;
+            margin-top: 20px;
+            font-size: 22px;
+            font-style: italic;
+            color: #ff4081;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kitty Test 疼爱测验</h1>
+
+    <form>
+        <div class="section">
+            <div class="section-title">基本每日任务: BÁSICAS</div>
+            <div class="test-item"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 从来不做任何她不喜欢的事
+                <label><input type="radio" name="task1" value="yes"> 是</label>
+                <label><input type="radio" name="task1" value="no"> 否</label>
+            </div>
+            <div class="test-item"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 照着她说的做 让她开心
+                <label><input type="radio" name="task2" value="yes"> 是</label>
+                <label><input type="radio" name="task2" value="no"> 否</label>
+            </div>
+            <div class="test-item"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 好好爱着她 😜 陪着她
+                <label><input type="radio" name="task3" value="yes"> 是</label>
+                <label><input type="radio" name="task3" value="no"> 否</label>
+            </div>
+            <div class="test-item"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 不给她任何压力💦
+                <label><input type="radio" name="task4" value="yes"> 是</label>
+                <label><input type="radio" name="task4" value="no"> 否</label>
+            </div>
+            <div class="test-item"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 健康生活！1点之前必睡
+                <label><input type="radio" name="task5" value="yes"> 是</label>
+                <label><input type="radio" name="task5" value="no"> 否</label>
+            </div>
+            <div class="test-item"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 尊重她的感受
+                <label><input type="radio" name="task6" value="yes"> 是</label>
+                <label><input type="radio" name="task6" value="no"> 否</label>
+            </div>
+            <div class="test-item"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 不说难听的话
+                <label><input type="radio" name="task7" value="yes"> 是</label>
+                <label><input type="radio" name="task7" value="no"> 否</label>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">她需要或想要的时候: CUANDO DESEE</div>
+            <div class="test-item"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 帮她按脚按背
+                <label><input type="radio" name="task8" value="yes"> 是</label>
+                <label><input type="radio" name="task8" value="no"> 否</label>
+            </div>
+            <div class="test-item"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 支持她的梦想
+                <label><input type="radio" name="task9" value="yes"> 是</label>
+                <label><input type="radio" name="task9" value="no"> 否</label>
+            </div>
+            <div class="test-item"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 给她空间
+                <label><input type="radio" name="task10" value="yes"> 是</label>
+                <label><input type="radio" name="task10" value="no"> 否</label>
+            </div>
+            <div class="test-item"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 收拾家务
+                <label><input type="radio" name="task11" value="yes"> 是</label>
+                <label><input type="radio" name="task11" value="no"> 否</label>
+            </div>
+            <div class="test-item"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 练习西班牙语 🇪🇸
+                <label><input type="radio" name="task12" value="yes"> 是</label>
+                <label><input type="radio" name="task12" value="no"> 否</label>
+            </div>
+            <div class="test-item"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 陪她上山
+                <label><input type="radio" name="task13" value="yes"> 是</label>
+                <label><input type="radio" name="task13" value="no"> 否</label>
+            </div>
+            <div class="test-item negative"><img src="https://img.icons8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 天气冷暖她 (夏天)
+                <label><input type="radio" name="task14" value="yes"> 是</label>
+                <label><input type="radio" name="task14" value="no" checked> 否</label>
+            </div>
+            <div class="test-item"><img src="https://img.icons 8.com/emoji/48/pig-emoji.png" class="icon" alt="pig"> 经常夸奖她
+                <label><input type="radio" name="task15" value="yes"> 是</label>
+                <label><input type="radio" name="task15" value="no"> 否</label>
+            </div>
+        </div>
+
+        <input type="submit" class="submit-button" value="提交结果">
+
+        <div class="statistics">
+            <p>上周成绩: 99/100</p>
+            <p>本月平均: 99/100</p>
+        </div>
+    </form>
+
+    <div class="signature">
+        小猪老公 SAMITO !!
+    </div>
+</body>
+</html>
